@@ -25,7 +25,7 @@ data AthleteDetailed = AthleteDetailed
   , athleteDetailed_country               :: Text
   , athleteDetailed_createdAt             :: UTCTime
   , athleteDetailed_datePreference        :: Text
-  , athleteDetailed_email                 :: Text
+  , athleteDetailed_email                 :: Maybe Text
   , athleteDetailed_firstname             :: Text
   , athleteDetailed_follower              :: Maybe Text
   , athleteDetailed_followerCount         :: Integer
